@@ -56,7 +56,8 @@ const Hero = () => {
         flair for building responsive and visually appealing websites with clean
         code. Hard worker with good communication skills looking for the right
         environment that will help me learn and advance my skills. my current
-        skills set include HTML, CSS, Javscript, React.
+        skills set include HTML, CSS, Javscript, React. Find below my attached
+        resume.
       </motion.span>
       <motion.span
         initial="hidden"
