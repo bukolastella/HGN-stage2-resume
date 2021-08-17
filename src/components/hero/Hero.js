@@ -52,10 +52,11 @@ const Hero = () => {
         {`< Frontend Developer />`}
       </motion.span>
       <motion.span variants={container} initial="hidden" animate="visible">
-        Hi there! I'm an enthusiast for everything technological. Popular web
-        apps are often the focus of my attention, and I strive to develop their
-        frontend features using my skills. my current skills set include HTML,
-        CSS, Javscript, React.
+        Hi there! I'm a Passionate, task-driven front-end web developer with a
+        flair for building responsive and visually appealing websites with clean
+        code. Hard worker with good communication skills looking for the right
+        environment that will help me learn and advance my skills. my current
+        skills set include HTML, CSS, Javscript, React.
       </motion.span>
       <motion.span
         initial="hidden"
