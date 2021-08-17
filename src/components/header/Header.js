@@ -1,19 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css";
 import { motion } from "framer-motion";
-import img from "../../assets/9-512.png";
-import { Link } from "react-scroll";
 
-const button = {
-  hover: {
-    scale: 1.1,
-    boxShadow: "0px 0px 10px rgb(255,255,255)",
-    transition: {
-      duration: 0.5,
-      yoyo: Infinity,
-    },
-  },
-};
 const nav = {
   hover: {
     scale: 1.2,
@@ -35,15 +23,13 @@ const Header = ({ scrollHandler }) => {
         whileHover="hover"
         onClick={scrollHandler}
       >
-        <Link
-          to="/https://internship.zuri.team/"
-          spy={true}
-          smooth={true}
-          offset={-150}
-          duration={10}
+        <a
+          href="https://internship.zuri.team/"
+          target="_blank"
+          rel="noreferrer"
         >
           Zuri
-        </Link>
+        </a>
       </motion.span>
     </div>
   );

@@ -6,7 +6,7 @@
   align-items: flex-start;
   color: white;
   padding: 1rem 4rem;
-  min-height: 100vh;
+  min-height: calc(100vh - 92px);
 }
 .Hero span:nth-child(1) {
   font-size: 3rem;
