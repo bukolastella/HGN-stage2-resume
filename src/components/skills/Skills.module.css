@@ -1,0 +1,25 @@
+.Skills {
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+.Flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+  width: 70%;
+  margin: auto;
+}
+@media (max-width: 988px) {
+  .Flex {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 700px) {
+  .Flex {
+    width: 100%;
+    margin: auto;
+  }
+}

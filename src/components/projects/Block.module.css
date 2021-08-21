@@ -1,0 +1,78 @@
+.Block {
+  width: 40%;
+  padding: 1rem;
+  position: relative;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  -moz-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  text-decoration: none;
+}
+.Block {
+  border: 1px solid #777777;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view {
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 1rem 0rem;
+  text-decoration: underline;
+}
+.view a {
+  color: rgb(189, 189, 189);
+}
+@media (hover: hover) and (pointer: fine) {
+  .Block:hover {
+    border: 1px solid #ebc198;
+    transform: scale(1.04);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+  .Block {
+    border: 1px solid #777777;
+  }
+  .Block:hover .view a {
+    color: #ebc198;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+.Block > span:nth-child(1) {
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #ebc198;
+}
+.Block p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0rem;
+  line-height: 180%;
+  letter-spacing: 0.03em;
+}
+@media (max-width: 800px) {
+  .Block {
+    width: 45%;
+  }
+}
+@media (max-width: 700px) {
+  .Block {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .Block {
+    width: 100%;
+  }
+}

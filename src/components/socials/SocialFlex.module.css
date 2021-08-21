@@ -1,0 +1,10 @@
+.SocialFlex {
+  margin-bottom: 0.5rem;
+}
+.SocialFlex i {
+  margin-right: 0.7rem;
+}
+.SocialFlex a {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}

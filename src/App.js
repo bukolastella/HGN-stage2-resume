@@ -1,13 +1,25 @@
+import Layout from "./components/layout/Layout";
+import Profile from "./components/profile/Profile";
+import Socials from "./components/socials/Socials";
+import Education from "./components/education/Education";
+import Skills from "./components/skills/Skills";
+import Project from "./components/projects/Project";
+import Line from "./components/Line/Line";
 import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import classes from "./App.module.css";
 
 function App() {
   return (
-    <div className={classes.App}>
+    <Layout>
+      <Profile />
+      <Socials />
+      <Line />
+      <Education />
+      <Skills />
+      <Line />
+      <Project />
+      <Line />
       <Header />
-      <Hero />
-    </div>
+    </Layout>
   );
 }
 

@@ -1,23 +1,15 @@
 .Header {
   display: flex;
-  justify-content: space-between;
-  background-color: #161616;
-  padding: 1rem 4rem;
   font-size: 1.1rem;
+  justify-content: center;
   align-items: center;
   font-weight: 700;
-  line-height: 180%;
-  letter-spacing: 0.03em;
-  color: white;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 1px 2px 0 #fbb01938, 0 2px 6px -1px #fbb01938;
+  grid-column: 1/-1;
 }
 
 .Header a {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -28,6 +20,7 @@
 .image {
   width: 60px;
   height: 60px;
+  margin-right: 1rem;
 }
 .image img {
   width: 100%;
@@ -36,14 +29,3 @@
   object-fit: contain;
   background-color: white;
 }
-
-/* @media (max-width: 700px) {
-  .Header {
-    padding: 1rem 2rem;
-  }
-}
-@media (max-width: 540px) {
-  .Header {
-    padding: 1rem;
-  }
-} */

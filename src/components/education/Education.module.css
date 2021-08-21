@@ -1,0 +1,11 @@
+.Education h2 {
+  color: #ebc198;
+  margin: 0.3rem 0rem 0.3rem 0rem;
+}
+.Education h3 {
+  margin: 0.3rem 0rem 0.3rem 0rem;
+}
+
+.Education {
+  transition: 0.5s ease-in-out;
+}

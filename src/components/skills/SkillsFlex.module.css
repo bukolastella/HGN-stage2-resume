@@ -1,0 +1,16 @@
+.SkillsFlex {
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  /* text-decoration: underline; */
+  /* text-decoration-color: #ebc198; */
+  /* width: 100px; */
+}
+.dot {
+  background-color: #ebc198;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 0.5rem;
+}

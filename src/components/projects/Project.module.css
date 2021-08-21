@@ -1,0 +1,34 @@
+.Main {
+  grid-column: 1/-1;
+}
+.Main h1 {
+  color: #ebc198;
+  margin: 1rem 0rem 0.5rem 0rem;
+  text-align: center;
+}
+.Main > p {
+  line-height: 180%;
+  letter-spacing: 0.03em;
+  font-size: 1.2rem;
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: center;
+}
+.Project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .Project {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 100%;
+  }
+}
+/* @media (max-width: 400px) {
+  .Main {
+    padding: 4rem 1rem;
+  }
+} */

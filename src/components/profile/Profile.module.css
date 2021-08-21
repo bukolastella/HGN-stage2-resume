@@ -1,0 +1,12 @@
+.Profile h3 {
+  margin: 0.3rem 0rem;
+  font-size: 2rem;
+  color: #ebc198;
+}
+
+.Profile p {
+  margin: 0.5rem 0rem;
+  line-height: 180%;
+  letter-spacing: 0.03em;
+  font-size: 1.1rem;
+}
